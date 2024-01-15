@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinkk1"
+    tools:context=".MealFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="60dp"
+        android:text="TRIMESTER JOURNEY"
+        android:textColor="@color/color6"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/myImageButton"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_gravity="end"
+        android:layout_margin="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:src="@drawable/pp1"
+        android:contentDescription="Profile Picture"/>
+
+    <ImageButton
+        android:id="@+id/brButton"
+        android:layout_width="284dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="200dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/trimg1"
+        android:contentDescription="tri1"
+        android:scaleType="centerInside"/>
+
+    <ImageButton
+        android:layout_width="284dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="380dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/trimg2"
+        android:contentDescription="tri2"
+        android:scaleType="centerInside"/>
+
+    <ImageButton
+        android:layout_width="284dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="560dp"
+        android:src="@drawable/m3"
+        android:contentDescription="tri3"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="centerInside"/>
+
+</FrameLayout>

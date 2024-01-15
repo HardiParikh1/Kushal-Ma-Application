@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:spacing="8dp">
+
+        <!-- Title and Image -->
+        <TextView
+            android:id="@+id/b2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avocado and Egg Toastie"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/recipeImage2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="390dp"
+            android:src="@drawable/toast" />
+        <TextView
+            android:id="@+id/b2ImageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="390dp"
+            android:textStyle="bold"
+            android:text="Calories: 400kcal\nProteins: 15g"
+            android:textSize="12sp"/><!-- Replace 'your_image_name' with your image name -->
+
+        <!-- Description -->
+
+        <!-- Ingredients -->
+
+        <TextView
+            android:id="@+id/desc2"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-100dp"
+            android:text="This Avocado and Egg Toastie is a delicious and nutritious breakfast or brunch option that combines creamy avocado, perfectly cooked eggs, and toasted bread. Packed with healthy fats, proteins, and a burst of flavors, it's a satisfying way to start your day."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ingri2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="Ingredients"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <ListView
+            android:id="@+id/ingredientsList2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+        </ListView>
+
+        <TextView
+            android:id="@+id/inst2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Instructions"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <ListView
+            android:id="@+id/instructionsList2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+
+        <!-- Instructions Button -->
+        <Button
+            android:id="@+id/checkRecipeButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Out The Entire Recipe"/>
+
+        <!-- Video View -->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIDEO"
+            android:layout_marginTop="80dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <VideoView
+            android:id="@+id/videoView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Audio Controls -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AUDIO"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/yog"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="-60dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/toast" />
+
+            <Button
+                android:id="@+id/playAudioButton2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:text="Play"/>
+
+            <Button
+                android:id="@+id/pauseAudioButton2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="70dp"
+                android:text="Pause"/>
+
+            <Button
+                android:id="@+id/stopAudioButton2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="70dp"
+                android:text="Stop"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pink"
+    android:padding="10dp">
+
+    <WebView
+        android:id="@+id/youtubeWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1ST TRIMESTER TIPS\n"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Trimester Essentials: A Quick Guide"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+    Embarking on pregnancy's initial journey? Here are key tips for a healthy start: \n\n
+
+    1. Nutrition Boost: Opt for a balanced diet to nurture both you and your baby.\n\n
+
+    2.Self-Care: Combat morning sickness with small, frequent meals, stay hydrated, and prioritize rest.\n\n
+
+    3.Check-up Routine: Stay on top of your baby's growth with regular prenatal check-ups.\n\n
+
+    4.Supplement Smart: Consult for the right prenatal vitamins, especially folic acid for neural tube development. Kickstart a healthy first trimester!\n\n"
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="TRIMESTER TIP VIDEOS"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <ImageButton
+            android:id="@+id/btnCurrentVideo"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:src="@drawable/currwatch"
+            android:scaleType="centerInside"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="30dp"/>
+
+        <ImageButton
+            android:id="@+id/btnArchive"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:src="@drawable/videolib"
+            android:scaleType="centerInside"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

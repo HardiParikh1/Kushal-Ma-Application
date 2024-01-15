@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProgFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/myImageButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:layout_gravity="end"
+                android:src="@drawable/user_picture"
+                android:contentDescription="@string/user_picture_description" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PROGRESS"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:layout_marginTop="-70dp"
+                android:textColor="@color/color1"
+                android:layout_marginRight="110dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WEEK"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/color6"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DAYS"
+                android:textSize="18dp"
+                android:layout_marginTop="-25dp"
+                android:layout_marginLeft="140dp"
+                android:textColor="#D3D3D3"/>
+
+
+
+            <!-- Date and Points -->
+            <TextView
+                android:id="@+id/dateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20/08/2023"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginRight="140dp"
+                android:layout_marginTop="-10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You are Pregnant for"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:layout_marginRight="130dp"
+                android:layout_marginTop="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24 WEEKS"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginRight="140dp"
+                android:layout_marginTop="5dp" />
+
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="266dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ptrack" />
+
+            <ImageView
+                android:layout_width="502dp"
+                android:layout_height="556dp"
+                android:src="@drawable/intake2" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

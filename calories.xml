@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="#E0E0E0"
+    android:padding="0dp">
+
+    <!-- CALORIES -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALORIES"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="3000kcal"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:id="@+id/caloriesProgress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+
+        android:max="5000"
+        android:progress="3000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goal 5000kcal"
+        android:layout_marginLeft="10dp"
+        android:textSize="13sp"
+        android:textStyle="bold"/>
+
+    <!-- STEPS (Duplicate the above views and adjust IDs and values) -->
+    <!-- ... -->
+
+</LinearLayout>
